@@ -41,7 +41,7 @@
     extractStoryImages,
   } from "$lib/utils/imagePreloader";
   import { onMount } from "svelte";
-  import { kiteDB } from "$lib/db/dexie";
+  import { kiteDB } from "$lib/db/dexie.ts";
   import { generateStoryId } from "$lib/utils/storyId";
 
   // App state
